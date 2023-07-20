@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="jbkQASuite">
+  <test name="QuizApp Test">
+  
+    <classes>
+      <class name="com.jbkqa.testCases.TC_01_LoginTest"/> 
+      <class name="com.jbkqa.testCases.TC_02_LoginDataDrivenTest"/>
+      <!--  <class name="com.jbkqa.testCases.TC_03_PlacementQuizTest"/>
+      <class name="com.jbkqa.testCases.TC_04_TestttttQuizTest"/>
+      <class name="com.jbkqa.testCases.TC_05_JavaCertQuizTest"/>
+      <class name="com.jbkqa.testCases.TC_06_AptitudeQuizTest"/>
+      <class name="com.jbkqa.testCases.TC_07_LogicalReasoningQuizTest"/>
+      <class name="com.jbkqa.testCases.TC_08_GeneralKnowledgeQuizTest"/>
+      <class name="com.jbkqa.testCases.TC_09_VerbalTestQuiz"/>
+      <class name="com.jbkqa.testCases.TC_10_ArithmeticAptitudeQuiz"/>
+      <class name="com.jbkqa.testCases.TC_11_Angular8QuizTest"/>
+      <class name="com.jbkqa.testCases.TC_12_TestingQuizTest"/>
+      <class name="com.jbkqa.testCases.TC_13_MySQLQuizTest"/>
+      <class name="com.jbkqa.testCases.TC_14_JavaQuizTest"/>
+      <class name="com.jbkqa.testCases.TC_15_PythonQuizTest"/>
+      <class name="com.jbkqa.testCases.TC_16_OnDemandQuizTest"/>-->
+      <class name="com.jbkqa.testCases.TC_17_PlacementQuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_18_TestttttQuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_19_JavaCertQuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_20_AptitudeQuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_21_LogicalReasoningQuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_22_GeneralKnowledgeQuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_23_VerbalTestQuizForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_24_ArithmeticAptitudeQuizForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_25_Angular8QuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_26_TestingQuizTestForAll_102025QueOptions"/>   
+      <class name="com.jbkqa.testCases.TC_27_MySQLQuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_28_JavaQuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_29_PythonQuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_30_OnDemandQuizTestForAll_102025QueOptions"/>
+      <class name="com.jbkqa.testCases.TC_31_ProfileUpdateTest"/> 
+      <class name="com.jbkqa.testCases.TC_32_SignUpDataDrivenTest"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

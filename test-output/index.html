@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-jbkQASuite" class="navigator-link">
+              <span class="suite-name border-failed">jbkQASuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-jbkQASuite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-jbkQASuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-jbkQASuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-jbkQASuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-jbkQASuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-jbkQASuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-jbkQASuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 11 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-jbkQASuite" class="hide-methods failed suite-jbkQASuite"> (hide)</a> <!-- hide-methods failed suite-jbkQASuite -->
+                      <a href="#" panel-name="suite-jbkQASuite" class="show-methods failed suite-jbkQASuite"> (show)</a> <!-- show-methods failed suite-jbkQASuite -->
+                    </span>
+                    <div class="method-list-content failed suite-jbkQASuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_02_LoginDataDrivenTest" class="method navigator-link" hash-for-method="LoginDataDrivenTest(1982387456)">LoginDataDrivenTest(1982387456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_02_LoginDataDrivenTest" class="method navigator-link" hash-for-method="LoginDataDrivenTest(8734561290)">LoginDataDrivenTest(8734561290)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_32_SignUpDataDrivenTest" class="method navigator-link" hash-for-method="SignUpDataDrivenTest(, rohan@gmail.com, 3000049804)">SignUpDataDrivenTest(, rohan@gmail.com, 3000049804)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_32_SignUpDataDrivenTest" class="method navigator-link" hash-for-method="SignUpDataDrivenTest(Ab Patil, abh.pt@gmail.com, 8341912388)">SignUpDataDrivenTest(Ab Patil, abh.pt@gmail.com, 8341912388)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_32_SignUpDataDrivenTest" class="method navigator-link" hash-for-method="SignUpDataDrivenTest(Ram Krishna, ram.k@gmail.com, 5561787994)">SignUpDataDrivenTest(Ram Krishna, ram.k@gmail.com, 5561787994)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_32_SignUpDataDrivenTest" class="method navigator-link" hash-for-method="SignUpDataDrivenTest(UserNameNew, user.new@rediff.com, 6658022996)">SignUpDataDrivenTest(UserNameNew, user.new@rediff.com, 6658022996)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_32_SignUpDataDrivenTest" class="method navigator-link" hash-for-method="SignUpDataDrivenTest(Rita, rita@rediffmail.com, 8780224356)">SignUpDataDrivenTest(Rita, rita@rediffmail.com, 8780224356)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_32_SignUpDataDrivenTest" class="method navigator-link" hash-for-method="SignUpDataDrivenTest(2468Sita, 2468Sita@gmail.com, 8009912340)">SignUpDataDrivenTest(2468Sita, 2468Sita@gmail.com, 8009912340)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_32_SignUpDataDrivenTest" class="method navigator-link" hash-for-method="SignUpDataDrivenTest(Pranav Raj, pranav@gmail.com, 6976015834)">SignUpDataDrivenTest(Pranav Raj, pranav@gmail.com, 6976015834)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_32_SignUpDataDrivenTest" class="method navigator-link" hash-for-method="SignUpDataDrivenTest(User?, @gmail.com, 1645287230)">SignUpDataDrivenTest(User?, @gmail.com, 1645287230)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_31_ProfileUpdateTest" class="method navigator-link" hash-for-method="profileUpdate">profileUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-jbkQASuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-jbkQASuite" class="hide-methods passed suite-jbkQASuite"> (hide)</a> <!-- hide-methods passed suite-jbkQASuite -->
+                      <a href="#" panel-name="suite-jbkQASuite" class="show-methods passed suite-jbkQASuite"> (show)</a> <!-- show-methods passed suite-jbkQASuite -->
+                    </span>
+                    <div class="method-list-content passed suite-jbkQASuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_25_Angular8QuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="Angular8QuizTest">Angular8QuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_20_AptitudeQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="AptitudeQuizTest">AptitudeQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_24_ArithmeticAptitudeQuizForAll_102025QueOptions" class="method navigator-link" hash-for-method="ArithmeticAptitudeQuizTest">ArithmeticAptitudeQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_22_GeneralKnowledgeQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="GeneralKnowledgeQuizTest">GeneralKnowledgeQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_19_JavaCertQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="JavaCertQuizTest">JavaCertQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_28_JavaQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="JavaQuizTest">JavaQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_21_LogicalReasoningQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="LogicalReasoningQuizTest">LogicalReasoningQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_02_LoginDataDrivenTest" class="method navigator-link" hash-for-method="LoginDataDrivenTest(9867542310)">LoginDataDrivenTest(9867542310)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_02_LoginDataDrivenTest" class="method navigator-link" hash-for-method="LoginDataDrivenTest(7756789026)">LoginDataDrivenTest(7756789026)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_27_MySQLQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="MySQLQuizTest">MySQLQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_30_OnDemandQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="OnDemandQuizTest">OnDemandQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_17_PlacementQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="PlacementQuizTest">PlacementQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_29_PythonQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="PythonQuizTest">PythonQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_26_TestingQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="TestingQuizTest">TestingQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_18_TestttttQuizTestForAll_102025QueOptions" class="method navigator-link" hash-for-method="TestttttQuizTest">TestttttQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_23_VerbalTestQuizForAll_102025QueOptions" class="method navigator-link" hash-for-method="VerbalTestQuizTest">VerbalTestQuizTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-jbkQASuite" title="com.jbkqa.testCases.TC_01_LoginTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-jbkQASuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-jbkQASuite" class="panel jbkQASuite">
+          <div class="suite-jbkQASuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_32_SignUpDataDrivenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpDataDrivenTest(, rohan@gmail.com, 3000049804)">
+                  </a> <!-- SignUpDataDrivenTest(, rohan@gmail.com, 3000049804) -->
+                  <span class="method-name">SignUpDataDrivenTest</span>
+                  <span class="parameters">(,rohan@gmail.com,3000049804)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.198)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d1f3545531f3b374f9e2492635e766b, clickElement {id=423FEE971D11A8C8E3A3FC5307AE746F_element_131}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/fs/n37ljzgx7g7...}, goog:chromeOptions: {debuggerAddress: localhost:56014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56014/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2d1f3545531f3b374f9e2492635e766b)] -&gt; xpath: //a[contains(@href,&apos;/dashboard&apos;)]]
+Session ID: 2d1f3545531f3b374f9e2492635e766b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.jbkqa.pageObjects.SignUpPage.dashboardPage(SignUpPage.java:121)
+	at com.jbkqa.testCases.TC_32_SignUpDataDrivenTest.SignUpDataDrivenTest(TC_32_SignUpDataDrivenTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpDataDrivenTest(Ab Patil, abh.pt@gmail.com, 8341912388)">
+                  </a> <!-- SignUpDataDrivenTest(Ab Patil, abh.pt@gmail.com, 8341912388) -->
+                  <span class="method-name">SignUpDataDrivenTest</span>
+                  <span class="parameters">(Ab Patil,abh.pt@gmail.com,8341912388)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.198)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d1f3545531f3b374f9e2492635e766b, clickElement {id=E89621CD1DEB28BA4ABE7E8E260F12D9_element_81}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/fs/n37ljzgx7g7...}, goog:chromeOptions: {debuggerAddress: localhost:56014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56014/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2d1f3545531f3b374f9e2492635e766b)] -&gt; xpath: //a[contains(@href,&apos;/dashboard&apos;)]]
+Session ID: 2d1f3545531f3b374f9e2492635e766b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.jbkqa.pageObjects.SignUpPage.dashboardPage(SignUpPage.java:121)
+	at com.jbkqa.testCases.TC_32_SignUpDataDrivenTest.SignUpDataDrivenTest(TC_32_SignUpDataDrivenTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpDataDrivenTest(Ram Krishna, ram.k@gmail.com, 5561787994)">
+                  </a> <!-- SignUpDataDrivenTest(Ram Krishna, ram.k@gmail.com, 5561787994) -->
+                  <span class="method-name">SignUpDataDrivenTest</span>
+                  <span class="parameters">(Ram Krishna,ram.k@gmail.com,5561787994)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.198)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d1f3545531f3b374f9e2492635e766b, clickElement {id=03024E45E7AA57769898B1BC33AB587C_element_55}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/fs/n37ljzgx7g7...}, goog:chromeOptions: {debuggerAddress: localhost:56014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56014/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2d1f3545531f3b374f9e2492635e766b)] -&gt; xpath: //a[contains(@href,&apos;/dashboard&apos;)]]
+Session ID: 2d1f3545531f3b374f9e2492635e766b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.jbkqa.pageObjects.SignUpPage.dashboardPage(SignUpPage.java:121)
+	at com.jbkqa.testCases.TC_32_SignUpDataDrivenTest.SignUpDataDrivenTest(TC_32_SignUpDataDrivenTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpDataDrivenTest(UserNameNew, user.new@rediff.com, 6658022996)">
+                  </a> <!-- SignUpDataDrivenTest(UserNameNew, user.new@rediff.com, 6658022996) -->
+                  <span class="method-name">SignUpDataDrivenTest</span>
+                  <span class="parameters">(UserNameNew,user.new@rediff.com,6658022996)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.198)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d1f3545531f3b374f9e2492635e766b, clickElement {id=0AE8B85A17E115E4922EBF289EC8A2AE_element_106}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/fs/n37ljzgx7g7...}, goog:chromeOptions: {debuggerAddress: localhost:56014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56014/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2d1f3545531f3b374f9e2492635e766b)] -&gt; xpath: //a[contains(@href,&apos;/dashboard&apos;)]]
+Session ID: 2d1f3545531f3b374f9e2492635e766b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.jbkqa.pageObjects.SignUpPage.dashboardPage(SignUpPage.java:121)
+	at com.jbkqa.testCases.TC_32_SignUpDataDrivenTest.SignUpDataDrivenTest(TC_32_SignUpDataDrivenTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpDataDrivenTest(Rita, rita@rediffmail.com, 8780224356)">
+                  </a> <!-- SignUpDataDrivenTest(Rita, rita@rediffmail.com, 8780224356) -->
+                  <span class="method-name">SignUpDataDrivenTest</span>
+                  <span class="parameters">(Rita,rita@rediffmail.com,8780224356)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.198)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d1f3545531f3b374f9e2492635e766b, clickElement {id=0D7AB4CCA78DA405DCD554B55A82CC57_element_228}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/fs/n37ljzgx7g7...}, goog:chromeOptions: {debuggerAddress: localhost:56014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56014/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2d1f3545531f3b374f9e2492635e766b)] -&gt; xpath: //a[contains(@href,&apos;/dashboard&apos;)]]
+Session ID: 2d1f3545531f3b374f9e2492635e766b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.jbkqa.pageObjects.SignUpPage.dashboardPage(SignUpPage.java:121)
+	at com.jbkqa.testCases.TC_32_SignUpDataDrivenTest.SignUpDataDrivenTest(TC_32_SignUpDataDrivenTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpDataDrivenTest(2468Sita, 2468Sita@gmail.com, 8009912340)">
+                  </a> <!-- SignUpDataDrivenTest(2468Sita, 2468Sita@gmail.com, 8009912340) -->
+                  <span class="method-name">SignUpDataDrivenTest</span>
+                  <span class="parameters">(2468Sita,2468Sita@gmail.com,8009912340)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.198)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d1f3545531f3b374f9e2492635e766b, clickElement {id=AA5E983AB7B6DB41BAF3C0658AA91BBE_element_178}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/fs/n37ljzgx7g7...}, goog:chromeOptions: {debuggerAddress: localhost:56014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56014/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2d1f3545531f3b374f9e2492635e766b)] -&gt; xpath: //a[contains(@href,&apos;/dashboard&apos;)]]
+Session ID: 2d1f3545531f3b374f9e2492635e766b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.jbkqa.pageObjects.SignUpPage.dashboardPage(SignUpPage.java:121)
+	at com.jbkqa.testCases.TC_32_SignUpDataDrivenTest.SignUpDataDrivenTest(TC_32_SignUpDataDrivenTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpDataDrivenTest(Pranav Raj, pranav@gmail.com, 6976015834)">
+                  </a> <!-- SignUpDataDrivenTest(Pranav Raj, pranav@gmail.com, 6976015834) -->
+                  <span class="method-name">SignUpDataDrivenTest</span>
+                  <span class="parameters">(Pranav Raj,pranav@gmail.com,6976015834)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.198)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d1f3545531f3b374f9e2492635e766b, clickElement {id=9DA24A84203BF5C6AE539F97DC42B939_element_203}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/fs/n37ljzgx7g7...}, goog:chromeOptions: {debuggerAddress: localhost:56014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56014/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2d1f3545531f3b374f9e2492635e766b)] -&gt; xpath: //a[contains(@href,&apos;/dashboard&apos;)]]
+Session ID: 2d1f3545531f3b374f9e2492635e766b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.jbkqa.pageObjects.SignUpPage.dashboardPage(SignUpPage.java:121)
+	at com.jbkqa.testCases.TC_32_SignUpDataDrivenTest.SignUpDataDrivenTest(TC_32_SignUpDataDrivenTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpDataDrivenTest(User?, @gmail.com, 1645287230)">
+                  </a> <!-- SignUpDataDrivenTest(User?, @gmail.com, 1645287230) -->
+                  <span class="method-name">SignUpDataDrivenTest</span>
+                  <span class="parameters">(User?,@gmail.com,1645287230)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.198)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d1f3545531f3b374f9e2492635e766b, clickElement {id=2A2F2112DD662645EA0D3B35A4F3691F_element_156}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/fs/n37ljzgx7g7...}, goog:chromeOptions: {debuggerAddress: localhost:56014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:56014/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2d1f3545531f3b374f9e2492635e766b)] -&gt; xpath: //a[contains(@href,&apos;/dashboard&apos;)]]
+Session ID: 2d1f3545531f3b374f9e2492635e766b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.jbkqa.pageObjects.SignUpPage.dashboardPage(SignUpPage.java:121)
+	at com.jbkqa.testCases.TC_32_SignUpDataDrivenTest.SignUpDataDrivenTest(TC_32_SignUpDataDrivenTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-failed -->
+          <div class="suite-jbkQASuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_31_ProfileUpdateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="profileUpdate">
+                  </a> <!-- profileUpdate -->
+                  <span class="method-name">profileUpdate</span>
+                  <div class="stack-trace">java.lang.AssertionError: Profile name field does not updated under welcome message. expected [Welcome Ovi Rohankar,] but found [Welcome Ovee Rohankar,]
+	at com.jbkqa.testCases.TC_31_ProfileUpdateTest.profileUpdate(TC_31_ProfileUpdateTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-failed -->
+          <div class="suite-jbkQASuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_02_LoginDataDrivenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginDataDrivenTest(1982387456)">
+                  </a> <!-- LoginDataDrivenTest(1982387456) -->
+                  <span class="method-name">LoginDataDrivenTest</span>
+                  <span class="parameters">(1982387456)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.198)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04773ca44dd26361f1cf14d3dbc5040d, clickElement {id=B2C2EDF123439E3B611824CBB5A50AAE_element_115}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/fs/n37ljzgx7g7...}, goog:chromeOptions: {debuggerAddress: localhost:64752}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64752/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (04773ca44dd26361f1cf14d3dbc5040d)] -&gt; xpath: //a[contains(@href,&apos;/dashboard&apos;)]]
+Session ID: 04773ca44dd26361f1cf14d3dbc5040d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.jbkqa.pageObjects.LoginPage.dashboardPage(LoginPage.java:77)
+	at com.jbkqa.testCases.TC_02_LoginDataDrivenTest.LoginDataDrivenTest(TC_02_LoginDataDrivenTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginDataDrivenTest(8734561290)">
+                  </a> <!-- LoginDataDrivenTest(8734561290) -->
+                  <span class="method-name">LoginDataDrivenTest</span>
+                  <span class="parameters">(8734561290)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=114.0.5735.198)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;13.4.1&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [04773ca44dd26361f1cf14d3dbc5040d, clickElement {id=1873F4A34EDA52F3B938FBB1E0CF7D0F_element_195}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.198, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/fs/n37ljzgx7g7...}, goog:chromeOptions: {debuggerAddress: localhost:64752}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:64752/devtoo..., se:cdpVersion: 114.0.5735.198, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (04773ca44dd26361f1cf14d3dbc5040d)] -&gt; xpath: //a[contains(@href,&apos;/dashboard&apos;)]]
+Session ID: 04773ca44dd26361f1cf14d3dbc5040d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at com.jbkqa.pageObjects.LoginPage.dashboardPage(LoginPage.java:77)
+	at com.jbkqa.testCases.TC_02_LoginDataDrivenTest.LoginDataDrivenTest(TC_02_LoginDataDrivenTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-failed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_24_ArithmeticAptitudeQuizForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ArithmeticAptitudeQuizTest">
+                  </a> <!-- ArithmeticAptitudeQuizTest -->
+                  <span class="method-name">ArithmeticAptitudeQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_27_MySQLQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MySQLQuizTest">
+                  </a> <!-- MySQLQuizTest -->
+                  <span class="method-name">MySQLQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_18_TestttttQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestttttQuizTest">
+                  </a> <!-- TestttttQuizTest -->
+                  <span class="method-name">TestttttQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_17_PlacementQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PlacementQuizTest">
+                  </a> <!-- PlacementQuizTest -->
+                  <span class="method-name">PlacementQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_26_TestingQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestingQuizTest">
+                  </a> <!-- TestingQuizTest -->
+                  <span class="method-name">TestingQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_30_OnDemandQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OnDemandQuizTest">
+                  </a> <!-- OnDemandQuizTest -->
+                  <span class="method-name">OnDemandQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_23_VerbalTestQuizForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerbalTestQuizTest">
+                  </a> <!-- VerbalTestQuizTest -->
+                  <span class="method-name">VerbalTestQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_21_LogicalReasoningQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogicalReasoningQuizTest">
+                  </a> <!-- LogicalReasoningQuizTest -->
+                  <span class="method-name">LogicalReasoningQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_22_GeneralKnowledgeQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GeneralKnowledgeQuizTest">
+                  </a> <!-- GeneralKnowledgeQuizTest -->
+                  <span class="method-name">GeneralKnowledgeQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_20_AptitudeQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AptitudeQuizTest">
+                  </a> <!-- AptitudeQuizTest -->
+                  <span class="method-name">AptitudeQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_28_JavaQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JavaQuizTest">
+                  </a> <!-- JavaQuizTest -->
+                  <span class="method-name">JavaQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_19_JavaCertQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JavaCertQuizTest">
+                  </a> <!-- JavaCertQuizTest -->
+                  <span class="method-name">JavaCertQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_25_Angular8QuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Angular8QuizTest">
+                  </a> <!-- Angular8QuizTest -->
+                  <span class="method-name">Angular8QuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_01_LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_29_PythonQuizTestForAll_102025QueOptions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PythonQuizTest">
+                  </a> <!-- PythonQuizTest -->
+                  <span class="method-name">PythonQuizTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+          <div class="suite-jbkQASuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.jbkqa.testCases.TC_02_LoginDataDrivenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginDataDrivenTest(9867542310)">
+                  </a> <!-- LoginDataDrivenTest(9867542310) -->
+                  <span class="method-name">LoginDataDrivenTest</span>
+                  <span class="parameters">(9867542310)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginDataDrivenTest(7756789026)">
+                  </a> <!-- LoginDataDrivenTest(7756789026) -->
+                  <span class="method-name">LoginDataDrivenTest</span>
+                  <span class="parameters">(7756789026)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jbkQASuite-class-passed -->
+        </div> <!-- panel jbkQASuite -->
+        <div panel-name="test-xml-jbkQASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/rohini/Documents/JavaCodes/jbkqaMavenProjV1/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;jbkQASuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;QuizApp Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_01_LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_02_LoginDataDrivenTest&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_17_PlacementQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_18_TestttttQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_19_JavaCertQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_20_AptitudeQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_21_LogicalReasoningQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_22_GeneralKnowledgeQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_23_VerbalTestQuizForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_24_ArithmeticAptitudeQuizForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_25_Angular8QuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_26_TestingQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_27_MySQLQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_28_JavaQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_29_PythonQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_30_OnDemandQuizTestForAll_102025QueOptions&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_31_ProfileUpdateTest&quot;/&gt;
+      &lt;class name=&quot;com.jbkqa.testCases.TC_32_SignUpDataDrivenTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QuizApp Test --&gt;
+&lt;/suite&gt; &lt;!-- jbkQASuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-jbkQASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for jbkQASuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">QuizApp Test (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-jbkQASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for jbkQASuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-jbkQASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for jbkQASuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_jbkQASuite');
+function tableData_jbkQASuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'JavaCertQuizTest')
+data.setCell(0, 2, 'com.jbkqa.testCases.TC_19_JavaCertQuizTestForAll_102025QueOptions')
+data.setCell(0, 3, 2811021);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ArithmeticAptitudeQuizTest')
+data.setCell(1, 2, 'com.jbkqa.testCases.TC_24_ArithmeticAptitudeQuizForAll_102025QueOptions')
+data.setCell(1, 3, 1425400);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'PythonQuizTest')
+data.setCell(2, 2, 'com.jbkqa.testCases.TC_29_PythonQuizTestForAll_102025QueOptions')
+data.setCell(2, 3, 305284);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'AptitudeQuizTest')
+data.setCell(3, 2, 'com.jbkqa.testCases.TC_20_AptitudeQuizTestForAll_102025QueOptions')
+data.setCell(3, 3, 231574);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'MySQLQuizTest')
+data.setCell(4, 2, 'com.jbkqa.testCases.TC_27_MySQLQuizTestForAll_102025QueOptions')
+data.setCell(4, 3, 217227);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Angular8QuizTest')
+data.setCell(5, 2, 'com.jbkqa.testCases.TC_25_Angular8QuizTestForAll_102025QueOptions')
+data.setCell(5, 3, 184999);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'OnDemandQuizTest')
+data.setCell(6, 2, 'com.jbkqa.testCases.TC_30_OnDemandQuizTestForAll_102025QueOptions')
+data.setCell(6, 3, 140606);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestttttQuizTest')
+data.setCell(7, 2, 'com.jbkqa.testCases.TC_18_TestttttQuizTestForAll_102025QueOptions')
+data.setCell(7, 3, 105645);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'PlacementQuizTest')
+data.setCell(8, 2, 'com.jbkqa.testCases.TC_17_PlacementQuizTestForAll_102025QueOptions')
+data.setCell(8, 3, 97926);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerbalTestQuizTest')
+data.setCell(9, 2, 'com.jbkqa.testCases.TC_23_VerbalTestQuizForAll_102025QueOptions')
+data.setCell(9, 3, 51454);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'GeneralKnowledgeQuizTest')
+data.setCell(10, 2, 'com.jbkqa.testCases.TC_22_GeneralKnowledgeQuizTestForAll_102025QueOptions')
+data.setCell(10, 3, 51081);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'JavaQuizTest')
+data.setCell(11, 2, 'com.jbkqa.testCases.TC_28_JavaQuizTestForAll_102025QueOptions')
+data.setCell(11, 3, 44842);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TestingQuizTest')
+data.setCell(12, 2, 'com.jbkqa.testCases.TC_26_TestingQuizTestForAll_102025QueOptions')
+data.setCell(12, 3, 41016);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LogicalReasoningQuizTest')
+data.setCell(13, 2, 'com.jbkqa.testCases.TC_21_LogicalReasoningQuizTestForAll_102025QueOptions')
+data.setCell(13, 3, 26364);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'profileUpdate')
+data.setCell(14, 2, 'com.jbkqa.testCases.TC_31_ProfileUpdateTest')
+data.setCell(14, 3, 22707);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'SignUpDataDrivenTest')
+data.setCell(15, 2, 'com.jbkqa.testCases.TC_32_SignUpDataDrivenTest')
+data.setCell(15, 3, 22437);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'SignUpDataDrivenTest')
+data.setCell(16, 2, 'com.jbkqa.testCases.TC_32_SignUpDataDrivenTest')
+data.setCell(16, 3, 21386);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'SignUpDataDrivenTest')
+data.setCell(17, 2, 'com.jbkqa.testCases.TC_32_SignUpDataDrivenTest')
+data.setCell(17, 3, 20402);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'SignUpDataDrivenTest')
+data.setCell(18, 2, 'com.jbkqa.testCases.TC_32_SignUpDataDrivenTest')
+data.setCell(18, 3, 20360);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'SignUpDataDrivenTest')
+data.setCell(19, 2, 'com.jbkqa.testCases.TC_32_SignUpDataDrivenTest')
+data.setCell(19, 3, 20356);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'SignUpDataDrivenTest')
+data.setCell(20, 2, 'com.jbkqa.testCases.TC_32_SignUpDataDrivenTest')
+data.setCell(20, 3, 20342);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'SignUpDataDrivenTest')
+data.setCell(21, 2, 'com.jbkqa.testCases.TC_32_SignUpDataDrivenTest')
+data.setCell(21, 3, 20339);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'SignUpDataDrivenTest')
+data.setCell(22, 2, 'com.jbkqa.testCases.TC_32_SignUpDataDrivenTest')
+data.setCell(22, 3, 20335);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'LoginDataDrivenTest')
+data.setCell(23, 2, 'com.jbkqa.testCases.TC_02_LoginDataDrivenTest')
+data.setCell(23, 3, 15678);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'LoginDataDrivenTest')
+data.setCell(24, 2, 'com.jbkqa.testCases.TC_02_LoginDataDrivenTest')
+data.setCell(24, 3, 12908);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loginTest')
+data.setCell(25, 2, 'com.jbkqa.testCases.TC_01_LoginTest')
+data.setCell(25, 3, 11379);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'LoginDataDrivenTest')
+data.setCell(26, 2, 'com.jbkqa.testCases.TC_02_LoginDataDrivenTest')
+data.setCell(26, 3, 9903);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'LoginDataDrivenTest')
+data.setCell(27, 2, 'com.jbkqa.testCases.TC_02_LoginDataDrivenTest')
+data.setCell(27, 3, 9887);
+window.suiteTableData['jbkQASuite']= { tableData: data, tableDiv: 'times-div-jbkQASuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 hours</span>
+              <div id="times-div-jbkQASuite">
+              </div> <!-- times-div-jbkQASuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-jbkQASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for jbkQASuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-jbkQASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-jbkQASuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_01_LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">6898 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18279 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_02_LoginDataDrivenTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18504 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginDataDrivenTest(7756789026)</span>
+                <span class="method-start">19907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">loginFailedScreenshot([TestResult name=LoginDataDrivenTest status=SUCCESS method=TC_02_LoginDataDrivenTest.LoginDataDriven...)</span>
+                <span class="method-start">35586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginDataDrivenTest(1982387456)</span>
+                <span class="method-start">35588 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">loginFailedScreenshot([TestResult name=LoginDataDrivenTest status=FAILURE method=TC_02_LoginDataDrivenTest.LoginDataDriven...)</span>
+                <span class="method-start">45478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginDataDrivenTest(9867542310)</span>
+                <span class="method-start">45673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">loginFailedScreenshot([TestResult name=LoginDataDrivenTest status=SUCCESS method=TC_02_LoginDataDrivenTest.LoginDataDriven...)</span>
+                <span class="method-start">58582 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginDataDrivenTest(8734561290)</span>
+                <span class="method-start">58583 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">loginFailedScreenshot([TestResult name=LoginDataDrivenTest status=FAILURE method=TC_02_LoginDataDrivenTest.LoginDataDriven...)</span>
+                <span class="method-start">68487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68667 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_17_PlacementQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">68804 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">PlacementQuizTest</span>
+                <span class="method-start">70048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">167975 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_18_TestttttQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">168116 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestttttQuizTest</span>
+                <span class="method-start">169359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">275006 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_19_JavaCertQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">275237 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">JavaCertQuizTest</span>
+                <span class="method-start">276499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3087523 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_20_AptitudeQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3087672 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">AptitudeQuizTest</span>
+                <span class="method-start">3088989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3320565 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_21_LogicalReasoningQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3320697 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LogicalReasoningQuizTest</span>
+                <span class="method-start">3321939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3348304 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_22_GeneralKnowledgeQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3348439 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">GeneralKnowledgeQuizTest</span>
+                <span class="method-start">3349669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3400751 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_23_VerbalTestQuizForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3400890 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerbalTestQuizTest</span>
+                <span class="method-start">3402125 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3453579 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_24_ArithmeticAptitudeQuizForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3453713 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ArithmeticAptitudeQuizTest</span>
+                <span class="method-start">3454990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4880391 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_25_Angular8QuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4880527 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Angular8QuizTest</span>
+                <span class="method-start">4881882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5066882 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_26_TestingQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5067013 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestingQuizTest</span>
+                <span class="method-start">5068222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5109238 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_27_MySQLQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5109369 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">MySQLQuizTest</span>
+                <span class="method-start">5110589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5327818 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_28_JavaQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5327951 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">JavaQuizTest</span>
+                <span class="method-start">5329228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5374071 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_29_PythonQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5374203 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">PythonQuizTest</span>
+                <span class="method-start">5375444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5680729 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_30_OnDemandQuizTestForAll_102025QueOptions</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5680860 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">OnDemandQuizTest</span>
+                <span class="method-start">5682113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5822721 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_31_ProfileUpdateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5822869 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">profileUpdate</span>
+                <span class="method-start">5824131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5846839 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.jbkqa.testCases.TC_32_SignUpDataDrivenTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5846970 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpDataDrivenTest(Ram Krishna, ram.k@gmail.com, 5561787994)</span>
+                <span class="method-start">5848213 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">signUpFailedScreenshot([TestResult name=SignUpDataDrivenTest status=FAILURE method=TC_32_SignUpDataDrivenTest.SignUpDataDri...)</span>
+                <span class="method-start">5869601 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpDataDrivenTest(Ab Patil, abh.pt@gmail.com, 8341912388)</span>
+                <span class="method-start">5869783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">signUpFailedScreenshot([TestResult name=SignUpDataDrivenTest status=FAILURE method=TC_32_SignUpDataDrivenTest.SignUpDataDri...)</span>
+                <span class="method-start">5892221 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpDataDrivenTest(UserNameNew, user.new@rediff.com, 6658022996)</span>
+                <span class="method-start">5892412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">signUpFailedScreenshot([TestResult name=SignUpDataDrivenTest status=FAILURE method=TC_32_SignUpDataDrivenTest.SignUpDataDri...)</span>
+                <span class="method-start">5912748 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpDataDrivenTest(, rohan@gmail.com, 3000049804)</span>
+                <span class="method-start">5912920 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">signUpFailedScreenshot([TestResult name=SignUpDataDrivenTest status=FAILURE method=TC_32_SignUpDataDrivenTest.SignUpDataDri...)</span>
+                <span class="method-start">5933261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpDataDrivenTest(User?, @gmail.com, 1645287230)</span>
+                <span class="method-start">5933434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">signUpFailedScreenshot([TestResult name=SignUpDataDrivenTest status=FAILURE method=TC_32_SignUpDataDrivenTest.SignUpDataDri...)</span>
+                <span class="method-start">5953837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpDataDrivenTest(2468Sita, 2468Sita@gmail.com, 8009912340)</span>
+                <span class="method-start">5954016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">signUpFailedScreenshot([TestResult name=SignUpDataDrivenTest status=FAILURE method=TC_32_SignUpDataDrivenTest.SignUpDataDri...)</span>
+                <span class="method-start">5974378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpDataDrivenTest(Pranav Raj, pranav@gmail.com, 6976015834)</span>
+                <span class="method-start">5974563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">signUpFailedScreenshot([TestResult name=SignUpDataDrivenTest status=FAILURE method=TC_32_SignUpDataDrivenTest.SignUpDataDri...)</span>
+                <span class="method-start">5994920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SignUpDataDrivenTest(Rita, rita@rediffmail.com, 8780224356)</span>
+                <span class="method-start">5995096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">signUpFailedScreenshot([TestResult name=SignUpDataDrivenTest status=FAILURE method=TC_32_SignUpDataDrivenTest.SignUpDataDri...)</span>
+                <span class="method-start">6015439 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6015618 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
